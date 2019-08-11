@@ -1,3 +1,4 @@
+fastai
 starlette
 uvicorn
 python-multipart

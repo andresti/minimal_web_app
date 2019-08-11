@@ -5,6 +5,7 @@ from starlette.middleware.cors import CORSMiddleware
 import uvicorn, aiohttp, asyncio
 from io import BytesIO
 
+from fastai import *
 
 model_file_url = 'https://drive.google.com/uc?export=download&id=1mqWnwY0qlXEOcETFybrgaYyLi_RYYcAB'
 model_file_name = 'kasonhunt' #'model'
